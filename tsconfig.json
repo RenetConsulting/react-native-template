@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "target": "es6",
+    "types": [
+      "jest",
+      "react",
+      "react-native",
+      "react-navigation"
+    ]
+  },
+  "types": [
+    "jest",
+    "react",
+    "react-native",
+    "react-navigation"
+  ],
+  "exclude": [
+    "android",
+    "ios",
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
