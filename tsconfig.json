@@ -1,31 +1,18 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "react",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "isolatedModules": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "jsx": "react",
+    "lib": [ "es6" ],
+    "moduleResolution": "node",
+    "noEmit": true,
     "strict": true,
-    "target": "es6",
-    "types": [
-      "jest",
-      "react",
-      "react-native",
-      "react-navigation"
-    ]
+    "target": "esnext"
   },
-  "types": [
-    "jest",
-    "react",
-    "react-native",
-    "react-navigation"
-  ],
-  "exclude": [
-    "android",
-    "ios",
-    "node_modules"
-  ],
-  "compileOnSave": false
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }
